@@ -1,0 +1,14 @@
+canvas{
+    animation-name:color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    from{box-shadow:1px 1px 38px fuchsia;     
+    }
+    to{
+        box-shadow:1px 1px 38px rgb(228, 148, 78);
+    }
+}
+
+
